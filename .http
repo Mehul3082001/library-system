@@ -1,0 +1,37 @@
+POST http://localhost:3000/add-new-post
+Content-Type: application/json
+
+{
+    "batch":[
+        {
+            "title": "book1",
+            "author": "author1",
+            "type": "type1",
+            "borrowed": "no"
+        },
+        {
+            "title": "book2",
+            "author": "author1",
+            "type": "type2",
+            "borrowed": "yes"
+        },
+        {
+            "title": "book3",
+            "author": "author2",
+            "type": "type1",
+            "borrowed": "yes"
+        },
+        {
+            "title": "book4",
+            "author": "author1",
+            "type": "type3",
+            "borrowed": "no"
+        },
+        {
+            "title": "book5",
+            "author": "author3",
+            "type": "type567",
+            "borrowed": "nope"
+        }
+    ]   
+}
